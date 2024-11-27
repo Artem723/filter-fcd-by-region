@@ -1,0 +1,7 @@
+# PROCESSING
+
+## add a header to a csv file
+
+```sh
+sed -i '1s;^;ID,LON,LAT,DIRECTION,SPEED,TIMESTAMP,STATE,GPS_QUALITY,TRIP_ID,PROTOCOL,CLASS,ODOMETER/n;' ./data/2019-01-09.txt
+```
